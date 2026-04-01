@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h2 id="c1">HTML</h2>
+
+
+<p>Javascript</p>
+<p>React</p>
+<p>Node js</p>
+
+<button onclick="changeColor()">Click it</button>
+<button onclick="tagname()">Touch it</button>
+
+    <script>
+
+        function changeColor()
+        {
+            let c1=document.getElementById('c1');
+            c1.style.backgroundColor="blue"
+            c1.style.color="white"
+        }
+
+        function tagname()
+        {
+            let d1=document.querySelectorAll('p')
+            
+            d1.forEach((d2)=>
+            {
+                d2.style.backgroundColor="green"
+            })
+        }
+    </script>
+</body>
+</html>

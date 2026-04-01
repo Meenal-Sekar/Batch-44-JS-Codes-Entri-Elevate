@@ -1,0 +1,58 @@
+Functions in JavaScript 
+1. What is a Function?
+A function is a reusable block of code designed to perform a specific task.
+ Functions help in organizing code, avoiding repetition, and improving readability.
+
+
+Basic Syntax
+
+function functionName(parameters)
+{
+    // code to execute
+
+}
+
+Example
+
+function greet(){
+    console.log("Hello Students!");
+}
+greet();
+
+
+Types:
+
+1. Inbuild function / Predefine function     
+
+    Example: string funciton, Math function  , callback 
+
+2. User defined function
+
+
+
+
+
+
+parameter and return
+------------------------
+
+1. with paramerter with return
+2. with parameter without return
+3. without paramerter with return
+4. without parameter without return
+
+
+
+// Maths function
+
+sqroot, cuberrot pow(2,3)
+
+(2**3)   ** exponentin
+
+
+
+
+
+
+
+

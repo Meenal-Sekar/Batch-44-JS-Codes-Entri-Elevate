@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light ON/OFF</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h2>Light ON / OFF</h2>
+
+<button id="toggleBtn">Turn ON</button>
+
+    <script>
+        let btn=document.getElementById('toggleBtn')
+        let isOn=false;
+
+        btn.addEventListener("click",function()
+    {
+     if(isOn)
+    {
+        document.body.style.backgroundColor="white"
+        document.body.style.color="navy";
+        btn.innerText = "Turn ON";
+        
+    }
+    else{
+        document.body.style.backgroundColor="yellow"
+         document.body.style.color="blue";
+        btn.innerText = "Turn OFF";
+       
+    }
+         isOn = !isOn;
+    })
+    </script>
+</body>
+</html>

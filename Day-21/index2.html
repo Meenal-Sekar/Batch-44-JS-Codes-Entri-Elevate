@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Login Form</h1>
+    
+    <label>Username</label>
+    <input type="text" id="t1" >
+    <label>Password</label>
+    <input type="text" id="t2">
+    <button onclick="login()">Submit</button>
+
+    <script>
+        function login()
+        {
+            let a1=document.getElementById('t1').value;
+            let a2=document.getElementById('t2').value
+
+            let uname="prem123"
+            let pass=12345;
+
+            if(a1 == uname  &&  a2==pass)
+                {
+                    alert('login successful')
+                }
+                else{
+                    alert('login denied')
+                }
+        }
+    </script>
+    
+</body>
+</html>

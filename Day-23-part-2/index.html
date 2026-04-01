@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple Banking Applicaiton</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+         <h2>Simple Banking Application</h2>
+           <label>Select Option</label>
+            <select id="option">
+                <option value="">Choose the option</option>
+                <option value="deposit">Deposit</option>
+                <option value="withdraw">Withdraw</option>
+                <option value="balance">Check Balance</option>
+                <option value="pin">Change PIN</option>
+            </select>
+              <input type="number" id="amount" placeholder="Enter Amount">
+
+              <input type="password" id="pin" placeholder="Enter PIN">
+
+              <button onclick="banking()">Submit</button>
+              <button onclick="Clear()">Erase</button>
+
+              <p id="result">
+                <!-- result print -->
+              </p>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

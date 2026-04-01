@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Character Counter</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 40px;
+    }
+    textarea {
+      width: 300px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Character Counter</h2>
+
+<textarea id="textArea"></textarea>
+
+<p>Characters: <span id="count">0</span></p>
+
+<script>
+  const textarea = document.getElementById("textArea");
+  const count = document.getElementById("count");
+
+  textarea.addEventListener("keydown", function ()
+   {
+    count.innerText = textarea.value.length;
+  });
+</script>
+
+</body>
+</html>

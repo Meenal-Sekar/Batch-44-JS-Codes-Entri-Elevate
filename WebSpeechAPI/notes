@@ -1,0 +1,18 @@
+•webkitSpeechRecognition is a browser-specific version 
+of the Speech Recognition API
+ used to convert voice (speech) into text.
+
+
+
+
+•	lang = "en-US" → language is English 
+•	continuous = false → listens only once (not continuously) 
+•	interimResults = false → only final result (no partial text) 
+
+
+
+•SpeechSynthesisUtterance is a JavaScript object
+ used in the Web Speech API to convert text into voice.
+
+
+

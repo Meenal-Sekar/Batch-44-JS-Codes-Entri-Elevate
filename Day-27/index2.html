@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Text</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h2 id="text">Hello Students!</h2>
+
+<button id="btn">Change Text</button>
+
+<script>
+  const button = document.getElementById("btn");
+  const text = document.getElementById("text");
+
+  button.addEventListener("click", function ()
+   {
+    text.innerText = "Welcome to JavaScript Events!";
+  });
+
+    button.addEventListener("dblclick", function ()
+   {
+    text.innerText = "Welcome to FSD-JS part!";
+  });
+</script>
+
+</body>
+</html>

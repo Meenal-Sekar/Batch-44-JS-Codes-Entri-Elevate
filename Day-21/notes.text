@@ -1,0 +1,70 @@
+//document.getElementById('t1')
+
+//primitive datatype(Number,string,boolean,undefined,null)
+
+//non primitive data type
+
+// store the multiple values
+//Array []  
+//multiple values together
+//object {}
+//function()
+let a2=100;
+
+let a1=[12,78,90,76];
+let a4=["solai","madathi","madhan"]
+//starting value of array is 0
+console.log(a4[2])
+let a3={
+    name:"jack",
+    age:23,
+    salary:20000
+}
+console.log(a3.name);
+
+
+// to set of insturction to perform a task
+
+// keyword function   function name()
+//function definition 
+
+function add()
+{
+    let a1=7;
+    let b1=5;
+    console.log(a1+b1)
+}
+
+function subtraction(c,d)
+{
+    console.log(c-d);
+}
+
+
+add();    //12
+
+subtraction(60,20);
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(typeof(a3))
+console.log(typeof(a4))
+
+//[]    {}      datatype: object
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+What is e.preventDefault()?
+--------------------------------
+
+It stops the default behavior of an event from happening.
+ Every HTML element has some default action:
+
+Form → refresh page on submit
+Link (<a>) → navigate to another page
+Checkbox → toggle checked
+
+preventDefault() cancels that behavior.
+
+
+let e=document.getElemById('error')
+
+e.foreach((a)=>
+{
+    a.
+})
+
+
+
+
+
+
+Mistakes 
+---------
+
+instead of use let we have to use const
+
+event is not click use submit
