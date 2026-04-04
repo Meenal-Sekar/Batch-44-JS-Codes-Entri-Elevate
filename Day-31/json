@@ -1,0 +1,26 @@
+
+// js 
+
+const a1=[23,45,67]
+
+console.log(typeof(a1))  
+
+
+const people=
+{
+    "name":"Amithab",
+    "age":27,
+    "Email":"abc@gmail.com"
+   
+} 
+
+console.log(people.name)
+console.log(typeof(people))
+
+const people1={
+    name:"surya",
+    age:22,
+    Email:"surya@gmail.com"
+}
+console.log(people1.Email)
+console.log(typeof(people1))

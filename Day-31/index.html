@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+     <!-- Set Time out function -->
+
+     <p id="demo"></p>
+
+    <script>
+        setTimeout(myFunction, 5000);
+        
+        function myFunction() 
+        {
+          document.getElementById("demo").innerHTML = "I like Entri-Elevate !!";
+        }
+    </script>  
+
+
+
+ <!-- async function -->
+
+ <h1 id="demo"></h1>
+
+ <script>
+  
+ async function elevate()
+ {
+  let sample = new Promise
+  (
+    function(resolve) 
+    {
+    setTimeout(function()
+     {
+      resolve("I like Entri !!");},
+       3000);
+    }
+);
+
+//setTimeout(elevate,3000)
+  document.getElementById("demo").innerHTML = await sample;
+}
+
+elevate(); 
+ 
+
+ </script> 
+
+</body>
+</html>
+
+
+
