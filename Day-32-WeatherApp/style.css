@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #bcddea;
+}
+.weather-box {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: navy;
+  color: white;
+  border: 0;
+}
+button:hover{
+  border: 2px solid navy;
+  background-color: transparent;
+  color:navy;
+}
+
+#result
+{
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+}
