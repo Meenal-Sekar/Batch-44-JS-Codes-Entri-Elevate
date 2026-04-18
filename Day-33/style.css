@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin:0;
+}
+ body {
+      font-family: Arial;
+      text-align: center;
+      background-color: #f5f5f5;
+    }
+
+    nav {
+    margin-top:10px;
+      background: #5dc3e5;
+      padding: 10px;
+    }
+
+    .btn
+    {
+        background-color: navy;
+        color:white;
+        padding:10px;
+    }
+
+    nav button {
+      margin: 5px;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      background: #555;
+      color: white;
+    }
+
+    nav button:hover {
+      background: #ff9800;
+    }
+
+
+      #container {
+      margin-top: 20px;
+    }
+    
+  
+
+  img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    input {
+      padding: 10px;
+      width: 200px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
