@@ -1,0 +1,47 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.products, .cart {
+
+  background: rgb(210, 163, 249);
+  padding: 15px;
+  border-radius: 10px;
+  width:400px;
+ 
+}
+.card {
+  border: 1px solid #041302;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 5px 25px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
