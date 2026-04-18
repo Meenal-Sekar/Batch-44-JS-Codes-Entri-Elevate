@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Stall Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+          <div class="sidebar">
+            <!-- change paragrahp as link tag -->
+             <!--  /* add more content in this side bar section make it as link */ -->
+               <!-- Create a title as BookStall management -->
+            <h2>BookStall Management</h2>
+            <a href="#"><p>Dashboard</p></a>
+            <a href="#"><p>Manage Books</p></a>
+            <a href="#"><p>Service</p></a>
+           
+         </div>
+
+         <div class="maincontent">
+             <div class="header">
+              <h2>BookStall Management Dashboard</h2>
+            </div>
+             <!-- Form Section -->
+              <!-- Get more details about book  -->
+                <div class="form-section">
+                    <input type="text" id="bookName" placeholder="Book Name">
+                    <input type="text" id="authorName" placeholder="Author Name">
+                    <button id="addBtn" onclick="addBook()">Add Book</button>
+                </div>
+
+        <!-- Search -->
+                    <div class="search-section">
+                        <input type="text" id="search" onkeyup="filterBooks()" placeholder="Search book...">
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+        <!-- display result as table format -->
+           <table>
+            <thead>
+                <tr>
+                    <th>BookNo</th>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody id="bookTable">
+                <!-- result will be print here as table view -->
+            </tbody>
+          </table>
+
+
+
+         </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- <tr>
+    <td>1</td>
+    <td>Thirukural</td>
+</tr> -->
