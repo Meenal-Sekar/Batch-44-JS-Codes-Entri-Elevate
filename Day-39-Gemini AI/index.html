@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entri-Smart Browser</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="container py-5">
+
+   <h3 class="mb-4 text-center fw-bold text-primary">Gemini Smart Browser</h3>
+
+   <div class="browser-window">
+
+         <!-- Fake browser tab controls -->
+                    <div class="browser-header">
+                        <div class="dot"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <div class="browser-toolbar">
+
+                        <div class="input-group">
+                            <input id="userInput" type="text" class="form-control"
+                            placeholder="Type a topic (e.g., API, compiler)">
+
+                            <button id="askGemini" class="btn btn-success">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                                
+                            </button>
+                        </div>
+
+                    </div>
+
+                        <!-- Response display -->
+                        <div id="result" class="result">
+
+                                
+                        </div>
+                        </div>
+
+   </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+    input  id: userInput     button  : askGemini    result: result
+-->

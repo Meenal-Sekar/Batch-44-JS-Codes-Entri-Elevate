@@ -1,0 +1,52 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+  .browser-window {
+            border: 1px solid #d0d7de;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+            background: white;
+        }
+
+      .browser-header {
+            background: #e8eaed;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        
+      }
+
+        .dot
+        {
+            width: 12px;
+            height: 12px;
+            background: #ff5f57;
+            border-radius: 50%;
+
+
+        }
+         .dot.yellow {
+            background: #ffbd2e;
+        }
+
+        .dot.green {
+            background: #28c840;
+        }
+
+        .result
+        {
+            background-color: #eef1f4;
+            height: 100vh;
+            padding:20px;
+            border: 2px solid green;
+            white-space: pre-line;
+            overflow: scroll;
+
+
+        }
