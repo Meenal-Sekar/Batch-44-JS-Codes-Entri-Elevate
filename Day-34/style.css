@@ -1,0 +1,36 @@
+/* 
+
+ design the product-card background as white, border as navy color.
+*/
+.product-list
+{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card 
+{
+  background-color: white;
+  border: 1px solid navy;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+/* design the price color as green and fontsize as 20px */
+.price
+{
+   color:green;
+   font-size: 20px;
+}
+.product-card h3 {
+  font-size: 14px;
+  margin: 10px 0;
+}
