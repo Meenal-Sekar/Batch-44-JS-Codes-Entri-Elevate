@@ -1,0 +1,14 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    color:green;
+    font-size: 30px;
+}
+
+.sample
+{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}

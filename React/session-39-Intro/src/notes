@@ -1,0 +1,25 @@
+
+
+1. app.jsx  code erase
+2. app.css  code erase
+3. main-jsx   (3rd line ) we can make comment or Erase
+
+
+component
+
+2 types
+
+1. Function component   (rafce) (Majority)
+2. Class component      (rcc) (Replace --- hooks)
+3. Normal function   rfce    (Noramal function component)
+
+
+
+Shortcuts
+-----------
+
+npm create vite@latest myapp --force
+
+ctrl+c   (temp+cut)
+
+run:  npm run dev
