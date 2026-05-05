@@ -1,0 +1,18 @@
+
+*
+{
+  margin:0;
+  padding:0;
+  background-color: lightcyan;
+}
+
+h1{
+  color:brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+  background-color: navy;
+  color:white;
+}
+
+/*  */
